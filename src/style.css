@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/*NAVBAR*/
+.navbar {
+    height: 55px;
+    display:flex;
+    flex-direction: row;
+    background-color: #F55A5A;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar > h1 {
+    font-weight:500;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 14.46px;
+}
+
+/*CARD*/
+.card {
+    display:flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin-top: 50px;
+    justify-items: left;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.card-stats{
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+  
+.location-image{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+  }
+  
+.location-icon {
+    width: 7px;
+    height: 9.55px;
+    margin-left: 19px;
+    background: #DADADA;
+}
+
+.country-name {
+    text-transform: uppercase;
+    width: 40px;
+    height: 10px;
+    left: 195px;
+    top: 119px;
+    margin-left: 4px;
+    margin-right: 12px;
+    
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12.39px;
+    letter-spacing: 0.17em;
+    
+    color: #2B283A;
+}
+  
+.googleMap-link {
+    width: 106px;
+    height: 13px;
+    left: 247px;
+    top: 119px;
+    
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12.39px;
+    /* identical to box height */
+    
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.location-name {
+    margin-left: 19px;
+    margin-bottom: 7px;
+    
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30.26px;
+    
+    color: #2B283A;
+}
+
+.start-date, .end-date {
+    margin-left: 19px;
+    margin-bottom: 9px;
+    
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12.39px;
+    
+    color: #2B283A;
+}
+
+.locaton-description {
+    margin-left: 19px;
+    margin-bottom: 38px;
+    width: 326px;
+    
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+    
+    color: #2B283A;
+}
